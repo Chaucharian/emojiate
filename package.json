@@ -1,0 +1,33 @@
+{
+  "name": "emojiate",
+  "version": "0.0.1",
+  "description": "a face tracking mobile app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./app/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaucharian/emojiate.git"
+  },
+  "keywords": [
+    "face",
+    "recognition",
+    "expression",
+    "detection",
+    "react",
+    "native",
+    "javascript"
+  ],
+  "author": "AS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaucharian/emojiate/issues"
+  },
+  "homepage": "https://github.com/Chaucharian/emojiate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "face-api.js": "^0.20.0"
+  }
+}
